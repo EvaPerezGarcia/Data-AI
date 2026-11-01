@@ -1,4 +1,4 @@
-# Proyectos Análisis de datos
+# Proyectos DATA & AI
 
 En este repositorio, demuestro mis habilidades en análisis de datos, desde el diseño de bases de datos hasta la implementación de modelos de limpieza y visualización de datos utilizando Python y Power BI.
 
