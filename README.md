@@ -1,33 +1,73 @@
-# Proyectos DATA & AI
+<div align="center">
 
-En este repositorio, demuestro mis habilidades en análisis de datos, desde el diseño de bases de datos hasta la implementación de modelos de limpieza y visualización de datos utilizando Python y Power BI.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0B1220&height=8" />
+
+<br/>
+
+<h1>PROYECTOS DATA & AI</h1>
+
+</div>
+
+## <code>01 /</code> PROYECTOS DESTACADOS
+
+### 01. Diseño y Gestión de Base de Datos para un Marketplace
+
+<sub>DISEÑO DE BASES DE DATOS · MYSQL · SQL</sub>
+
+Diseño e implementación de una base de datos relacional para un sistema de compraventa online, transformando los requisitos de negocio en una estructura de datos organizada.
+
+**Archivos y entregables**
+- Esquema de la base de datos relacional (`.mwb`).
+- Scripts SQL para la creación de tablas y la inserción de datos.
+- Consultas SQL complejas para la recuperación y gestión de información.
+
+**HABILIDADES TÉCNICAS**
+
+<img src="https://img.shields.io/badge/MySQL-263B53?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-263B53?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Modelado_de_Datos-263B53?style=flat" /> <img src="https://img.shields.io/badge/Diseño_de_BBDD-263B53?style=flat" />
+
+[Ver proyecto →](Proyecto_MySQL_Marketplace)
 
 ---
 
-## 📊 Proyectos Destacados
+### 02. Análisis Socioeconómico y Demográfico
 
-### 1. Diseño y Gestión de Base de Datos para un Marketplace (MySQL)
+<sub>ANÁLISIS DE DATOS · PYTHON · VISUALIZACIÓN</sub>
 
-* **Objetivo:** Construir la base de datos relacional (BBDD) para un sistema de compraventa, partiendo de un texto de negocio.
-* **Archivos clave:** Esquema (.mwb) y Scripts SQL (.sql).
-* **Habilidades técnicas:** Modelado, Diseño de BBDD, **SQL** (Inserciones de datos y Consultas Complejas).
+Análisis de las relaciones entre el Índice de Desarrollo Humano (IDH), el Producto Interior Bruto (PIB) y la tasa de natalidad mediante técnicas de análisis y visualización de datos.
 
-[Ver el Proyecto Completo](Proyecto_MySQL_Marketplace)
+**Archivos y entregables**
+- Notebook de Jupyter (`.ipynb`).
+- Conjuntos de datos originales en formatos Excel y HTML.
+- Procesamiento y visualización de los datos analizados.
 
-### 2. Análisis Socioeconómico y Demográfico (Python)
+**HABILIDADES TÉCNICAS**
 
-* **Objetivo:** Analizar y visualizar la correlación entre el Índice de Desarrollo Humano (IDH), el Producto Interno Bruto (PIB) y la Tasa de Natalidad.
-* **Archivos clave:** Jupyter Notebook (.ipynb) y Archivos de Datos (Excel y HTML).
-* **Habilidades técnicas:** **Python**, **Limpieza y Transformación de Datos**, Pandas, Visualización de Datos (Matplotlib), Jupyter Notebook.
+<img src="https://img.shields.io/badge/Python-263B53?style=flat&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-263B53?style=flat&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Matplotlib-263B53?style=flat&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-263B53?style=flat&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Limpieza_de_Datos-263B53?style=flat" />
 
-[Ver el Proyecto Completo](Analisis_Demografico)
+[Ver proyecto →](Analisis_Demografico)
 
-### 3. Limpieza y Visualización de Datos de Consultoría (Power BI)
+---
 
-* **Objetivo:** Practicar la limpieza y visualización de datos de una empresa ficticia de consultoría, transformando datos “sucios” en un dashboard interactivo en Power BI.
-* **Archivos clave:**  
-  - `datos_sucios.xlsx` → archivo original generado por IA, con errores intencionales (~1.200 filas).  
-  - `datos_limpios_dashboard.pbix` → versión limpia y corregida, con dashboard en Power BI.  
-* **Habilidades técnicas:** **Power Query**, limpieza de datos, normalización, corrección de errores, creación de columnas calculadas, y **Power BI** para dashboards interactivos.
+### 03. Limpieza y Visualización de Datos de Consultoría
 
-[Ver el Proyecto Completo](Proyecto_Consultoria_PowerBI)
+<sub>INTELIGENCIA DE NEGOCIO · POWER BI · POWER QUERY</sub>
+
+Limpieza y transformación de un conjunto de datos deliberadamente inconsistente de una empresa ficticia de consultoría, convirtiéndolo en una fuente de información estructurada para desarrollar un dashboard interactivo en Power BI.
+
+**Archivos y entregables**
+- `datos_sucios.xlsx` — Archivo original generado mediante IA, con errores intencionados (aproximadamente 1.200 filas).
+- `datos_limpios_dashboard.pbix` — Versión limpia y corregida de los datos, con dashboard interactivo en Power BI.
+
+**HABILIDADES TÉCNICAS**
+
+<img src="https://img.shields.io/badge/Power_BI-263B53?style=flat&logo=powerbi&logoColor=white" /> <img src="https://img.shields.io/badge/Power_Query-263B53?style=flat&logo=microsoft&logoColor=white" /> <img src="https://img.shields.io/badge/Limpieza_de_Datos-263B53?style=flat" /> <img src="https://img.shields.io/badge/Normalización-263B53?style=flat" /> <img src="https://img.shields.io/badge/Dashboards_Interactivos-263B53?style=flat" />
+
+[Ver proyecto →](Proyecto_Consultoria_PowerBI)
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=123B63&height=5" />
+
+</div>
