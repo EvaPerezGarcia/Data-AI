@@ -8,8 +8,6 @@
 
 </div>
 
-## <code>01 /</code> PROYECTOS DESTACADOS
-
 ### 01. Diseño y Gestión de Base de Datos para un Marketplace
 
 <sub>DISEÑO DE BASES DE DATOS · MYSQL · SQL</sub>
@@ -63,8 +61,6 @@ Limpieza y transformación de un conjunto de datos deliberadamente inconsistente
 <img src="https://img.shields.io/badge/Power_BI-263B53?style=flat&logo=powerbi&logoColor=white" /> <img src="https://img.shields.io/badge/Power_Query-263B53?style=flat&logo=microsoft&logoColor=white" /> <img src="https://img.shields.io/badge/Limpieza_de_Datos-263B53?style=flat" /> <img src="https://img.shields.io/badge/Normalización-263B53?style=flat" /> <img src="https://img.shields.io/badge/Dashboards_Interactivos-263B53?style=flat" />
 
 [Ver proyecto →](Proyecto_Consultoria_PowerBI)
-
----
 
 <div align="center">
 
