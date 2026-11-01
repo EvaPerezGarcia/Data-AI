@@ -1,4 +1,4 @@
-# Consultoría | Limpieza y Visualización de Datos con Power BI
+# Limpieza y Visualización de Datos con Power BI | Consultoría
 
 Este proyecto aborda la limpieza, transformación y visualización de datos en un contexto empresarial simulado, utilizando **Power Query y Power BI**.
 
@@ -8,17 +8,38 @@ A partir de un conjunto de datos ficticio con errores e inconsistencias intencio
 
 ## <code>01 /</code> ARCHIVOS DEL PROYECTO
 
-**`datos_sucios.xlsx`**
+<div align="left">
 
-<sub>ARCHIVO ORIGINAL · EXCEL · 1.200 REGISTROS</sub>
-
-Conjunto de datos generado mediante IA, con errores e inconsistencias introducidos intencionadamente para practicar técnicas de limpieza y transformación.
-
-**`datos_limpios_dashboard.pbix`**
-
-<sub>ARCHIVO FINAL · POWER BI</sub>
-
+<table>
+<tr>
+<td width="35%" bgcolor="#263B53">
+<strong>ARCHIVO</strong>
+</td>
+<td width="65%" bgcolor="#263B53">
+<strong>DESCRIPCIÓN</strong>
+</td>
+</tr>
+<tr>
+<td>
+<strong><code>datos_sucios.xlsx</code></strong>
+<br/>
+</td>
+<td>
+Conjunto de datos original generado mediante IA, con errores e inconsistencias introducidos intencionadamente para practicar técnicas de limpieza y transformación.
+</td>
+</tr>
+<tr>
+<td>
+<strong><code>datos_limpios_dashboard.pbix</code></strong>
+<br/>
+</td>
+<td>
 Archivo que contiene los datos depurados, las transformaciones realizadas mediante Power Query y el dashboard interactivo.
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -26,7 +47,7 @@ Archivo que contiene los datos depurados, las transformaciones realizadas median
 
 El tratamiento de los datos se realizó mediante **Power Query**, aplicando diferentes operaciones para mejorar su calidad, consistencia y fiabilidad.
 
-Principales operaciones realizadas:
+**Principales operaciones realizadas:**
 
 - **Corrección de tipos de datos:** revisión y conversión de campos de fechas y valores numéricos.
 - **Normalización de registros:** unificación de nombres de clientes, consultores, ciudades y países.
@@ -38,10 +59,40 @@ Principales operaciones realizadas:
 
 ### Resultados de la limpieza
 
-- **Registros iniciales:** 1.200
-- **Registros finales:** 894
-- **Registros eliminados:** 306
-- **Reducción del volumen de datos:** 25,5 %
+<div align="left">
+
+<table>
+<tr>
+<td bgcolor="#263B53" align="center">
+<strong>REGISTROS INICIALES</strong>
+</td>
+<td bgcolor="#263B53" align="center">
+<strong>REGISTROS FINALES</strong>
+</td>
+<td bgcolor="#263B53" align="center">
+<strong>REGISTROS ELIMINADOS</strong>
+</td>
+<td bgcolor="#263B53" align="center">
+<strong>REDUCCIÓN</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<strong>1.200</strong>
+</td>
+<td align="center">
+<strong>894</strong>
+</td>
+<td align="center">
+<strong>306</strong>
+</td>
+<td align="center">
+<strong>25,5 %</strong>
+</td>
+</tr>
+</table>
+
+</div>
 
 La depuración permitió obtener un conjunto de datos más consistente, mejorando su calidad y utilidad para el análisis posterior.
 
@@ -52,15 +103,18 @@ La depuración permitió obtener un conjunto de datos más consistente, mejorand
 A partir de los datos depurados, se desarrolló un dashboard interactivo en Power BI para analizar diferentes dimensiones de la actividad de la consultora.
 
 **Indicadores clave (KPI)**
+
 - Total de horas trabajadas.
 - Tarifa media.
 - Facturación total.
 
 **Análisis y visualizaciones**
+
 - Distribución de la actividad por sector, rol profesional y cliente.
 - Evolución temporal de la facturación por año y mes.
 
 **Interactividad**
+
 - Filtros por ciudad.
 - Segmentación por sector.
 - Filtrado por rol profesional.
@@ -90,7 +144,7 @@ Los resultados corresponden a un escenario empresarial ficticio y no representan
 
 ## <code>06 /</code> DERECHOS DE AUTOR Y CONDICIONES DE USO
 
-© 2026. Todos los derechos reservados sobre los elementos originales de este proyecto.
+© 2026 Eva Pérez García. Todos los derechos reservados sobre los elementos originales de este proyecto.
 
 El trabajo original desarrollado incluye, entre otros elementos, las reglas y configuraciones de limpieza, las transformaciones de datos, los cálculos y medidas creados, el diseño del dashboard, las visualizaciones originales y la documentación.
 
@@ -98,12 +152,4 @@ El trabajo original desarrollado incluye, entre otros elementos, las reglas y co
 
 - La reproducción o copia de los elementos originales del proyecto.
 - La reutilización de las transformaciones, medidas, cálculos o soluciones desarrolladas.
-- La adaptación, modificación, redistribución o publicación de los elementos originales.
-- La incorporación del dashboard, sus diseños o componentes originales a otros proyectos.
-- La explotación comercial o profesional de los elementos originales sin la autorización correspondiente.
-
-La publicación de este repositorio en GitHub tiene fines informativos y de consulta. No implica la concesión de una licencia para reutilizar los elementos originales del proyecto.
-
-Los datos simulados generados mediante IA y las herramientas, tecnologías y materiales de terceros quedan sujetos a sus respectivas condiciones de uso y derechos aplicables. Esta declaración no pretende atribuir derechos exclusivos sobre materiales ajenos ni sobre funcionalidades propias de las herramientas utilizadas.
-
-Todos los derechos que correspondan sobre los elementos originales del proyecto quedan reservados.
+- La adaptación, modificación, redistribución o publicación de los elementos
