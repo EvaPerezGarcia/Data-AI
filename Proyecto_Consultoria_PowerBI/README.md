@@ -1,89 +1,94 @@
 # Consultoría | Limpieza y Visualización de Datos con Power BI
 
-## Descripción del proyecto
+Este proyecto aborda la limpieza, transformación y visualización de datos en un contexto empresarial simulado, utilizando **Power Query y Power BI**.
 
-Este proyecto consiste en la limpieza, transformación y visualización de datos en un contexto empresarial simulado, utilizando **Power Query y Power BI**.
-
-A partir de un conjunto de datos ficticio con errores e inconsistencias intencionadas, se desarrolla un proceso de preparación y depuración de la información para obtener una fuente de datos estructurada y fiable. Posteriormente, los datos tratados se utilizan para construir un **dashboard interactivo** que facilita el análisis de la actividad y el rendimiento de una empresa de consultoría.
-
-El objetivo es reproducir un flujo de trabajo habitual en proyectos de análisis de datos: desde la identificación y corrección de problemas de calidad hasta la presentación visual de indicadores relevantes para la toma de decisiones.
+A partir de un conjunto de datos ficticio con errores e inconsistencias intencionadas, se desarrolla un proceso de depuración para obtener información estructurada y fiable. Posteriormente, los datos tratados se utilizan para construir un **dashboard interactivo** que facilita el análisis de la actividad y el rendimiento de una empresa de consultoría.
 
 ---
 
-## 01 / Archivos del proyecto
+## <code>01 /</code> ARCHIVOS DEL PROYECTO
 
-| Archivo | Descripción |
-|---|---|
-| `datos_sucios.xlsx` | Conjunto de datos original generado mediante IA, con aproximadamente 1.200 registros y errores intencionados. |
-| `datos_limpios_dashboard.pbix` | Archivo de Power BI con los datos depurados, las transformaciones realizadas y el dashboard interactivo. |
+**`datos_sucios.xlsx`**
+
+<sub>ARCHIVO ORIGINAL · EXCEL · 1.200 REGISTROS</sub>
+
+Conjunto de datos generado mediante IA, con errores e inconsistencias introducidos intencionadamente para practicar técnicas de limpieza y transformación.
+
+**`datos_limpios_dashboard.pbix`**
+
+<sub>ARCHIVO FINAL · POWER BI</sub>
+
+Archivo que contiene los datos depurados, las transformaciones realizadas mediante Power Query y el dashboard interactivo.
 
 ---
 
-## 02 / Proceso de limpieza y transformación
+## <code>02 /</code> PROCESO DE LIMPIEZA Y TRANSFORMACIÓN
 
-El tratamiento de los datos se realizó mediante **Power Query**, aplicando diferentes técnicas para mejorar su calidad, consistencia y fiabilidad.
+El tratamiento de los datos se realizó mediante **Power Query**, aplicando diferentes operaciones para mejorar su calidad, consistencia y fiabilidad.
 
 Principales operaciones realizadas:
 
 - **Corrección de tipos de datos:** revisión y conversión de campos de fechas y valores numéricos.
 - **Normalización de registros:** unificación de nombres de clientes, consultores, ciudades y países.
-- **Depuración de datos:** eliminación de registros duplicados y valores negativos no válidos en horas y tarifas.
+- **Eliminación de duplicados:** detección y eliminación de registros repetidos.
+- **Validación de valores:** eliminación de valores negativos no válidos en horas y tarifas.
 - **Revisión de cálculos:** recálculo de la facturación para garantizar la coherencia de los importes en euros.
 - **Estandarización de formatos:** unificación de mayúsculas, minúsculas y traducciones de términos.
 - **Filtrado de registros inválidos:** eliminación de observaciones que no cumplían los criterios de calidad establecidos.
 
 ### Resultados de la limpieza
 
-<sub>COMPARATIVA DEL PROCESO DE DEPURACIÓN</sub>
+- **Registros iniciales:** 1.200
+- **Registros finales:** 894
+- **Registros eliminados:** 306
+- **Reducción del volumen de datos:** 25,5 %
 
-| Indicador | Resultado |
-|---|---:|
-| Registros iniciales | 1.200 |
-| Registros finales | 894 |
-| Registros eliminados | 306 |
-| Reducción del volumen de datos | 25,5 % |
-
-La depuración permitió obtener un conjunto de datos más consistente, eliminando registros problemáticos y mejorando su utilidad para el análisis posterior.
+La depuración permitió obtener un conjunto de datos más consistente, mejorando su calidad y utilidad para el análisis posterior.
 
 ---
 
-## 03 / Dashboard de Power BI
+## <code>03 /</code> DASHBOARD DE POWER BI
 
 A partir de los datos depurados, se desarrolló un dashboard interactivo en Power BI para analizar diferentes dimensiones de la actividad de la consultora.
 
-**Indicadores y visualizaciones principales:**
+**Indicadores clave (KPI)**
+- Total de horas trabajadas.
+- Tarifa media.
+- Facturación total.
 
-- **Indicadores clave (KPI):** total de horas trabajadas, tarifa media y facturación total.
-- **Análisis por categorías:** distribución de la actividad según sector, rol profesional y cliente.
-- **Evolución temporal:** seguimiento de la facturación por año y mes.
-- **Segmentación interactiva:** filtros por ciudad, sector y rol para explorar diferentes perspectivas de los datos.
+**Análisis y visualizaciones**
+- Distribución de la actividad por sector, rol profesional y cliente.
+- Evolución temporal de la facturación por año y mes.
+
+**Interactividad**
+- Filtros por ciudad.
+- Segmentación por sector.
+- Filtrado por rol profesional.
 
 El dashboard permite consultar los principales indicadores y analizar patrones de actividad mediante una interfaz visual e interactiva.
 
 ---
 
-## 04 / Herramientas y tecnologías
+## <code>04 /</code> HERRAMIENTAS Y TECNOLOGÍAS
 
-| Herramienta | Aplicación |
-|---|---|
-| **Microsoft Excel** | Almacenamiento y consulta del conjunto de datos original. |
-| **Power Query** | Limpieza, transformación y normalización de datos. |
-| **Power BI** | Modelado, análisis y desarrollo del dashboard interactivo. |
-| **Inteligencia Artificial** | Generación del conjunto de datos ficticio inicial. |
+- **Microsoft Excel:** almacenamiento y consulta del conjunto de datos original.
+- **Power Query:** limpieza, transformación y normalización de datos.
+- **Power BI:** modelado, análisis y desarrollo del dashboard interactivo.
+- **Inteligencia Artificial:** generación del conjunto de datos ficticio inicial.
 
 ---
 
-## 05 / Consideraciones sobre los datos
+## <code>05 /</code> CONSIDERACIONES SOBRE LOS DATOS
 
 El conjunto de datos inicial fue generado mediante inteligencia artificial con fines exclusivamente formativos y contiene registros simulados y errores introducidos intencionadamente.
 
 La limpieza, las transformaciones, las reglas de depuración, los cálculos y el diseño del dashboard fueron desarrollados manualmente para poner en práctica conocimientos de calidad de datos, Power Query y Power BI.
 
-Por tanto, los resultados obtenidos corresponden a un escenario empresarial ficticio y no representan información real de una empresa.
+Los resultados corresponden a un escenario empresarial ficticio y no representan información real de una empresa.
 
 ---
 
-## 06 / Derechos de autor y condiciones de uso
+## <code>06 /</code> DERECHOS DE AUTOR Y CONDICIONES DE USO
 
 © 2026. Todos los derechos reservados sobre los elementos originales de este proyecto.
 
