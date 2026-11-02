@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0B1220&height=8" />
 
@@ -23,7 +23,7 @@ Diseño e implementación de una base de datos relacional para un sistema de com
 
 <img src="https://img.shields.io/badge/MySQL-263B53?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-263B53?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Modelado_de_Datos-263B53?style=flat" /> <img src="https://img.shields.io/badge/Diseño_de_BBDD-263B53?style=flat" />
 
-[Ver proyecto →](Proyecto_MySQL_Marketplace)
+[Ver proyecto →](BBDD_Marketplace_MySQL)
 
 ---
 
@@ -42,7 +42,7 @@ Análisis de las relaciones entre el Índice de Desarrollo Humano (IDH), el Prod
 
 <img src="https://img.shields.io/badge/Python-263B53?style=flat&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-263B53?style=flat&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Matplotlib-263B53?style=flat&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-263B53?style=flat&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Limpieza_de_Datos-263B53?style=flat" />
 
-[Ver proyecto →](Analisis_Demografico)
+[Ver proyecto →](Analisis_Demografico_Python)
 
 ---
 
@@ -60,7 +60,7 @@ Limpieza y transformación de un conjunto de datos deliberadamente inconsistente
 
 <img src="https://img.shields.io/badge/Power_BI-263B53?style=flat&logo=powerbi&logoColor=white" /> <img src="https://img.shields.io/badge/Power_Query-263B53?style=flat&logo=microsoft&logoColor=white" /> <img src="https://img.shields.io/badge/Limpieza_de_Datos-263B53?style=flat" /> <img src="https://img.shields.io/badge/Normalización-263B53?style=flat" /> <img src="https://img.shields.io/badge/Dashboards_Interactivos-263B53?style=flat" />
 
-[Ver proyecto →](Proyecto_Consultoria_PowerBI)
+[Ver proyecto →](Consultoria_PowerBI)
 
 <div align="center">
 
